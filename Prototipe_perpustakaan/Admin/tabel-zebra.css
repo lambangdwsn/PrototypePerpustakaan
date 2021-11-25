@@ -1,0 +1,23 @@
+.zebra table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.zebra th, td {
+	text-align: left;
+	padding: 16px;
+}
+
+.zebra tr:nth-child(odd) {
+  background-color: white;
+}
+.zebra tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.zebra img{
+	height: 80px;
+	width: 60px;
+}
